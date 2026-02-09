@@ -24,10 +24,10 @@ env:
 
 jobs:
   integration:
-    uses: CH3-challengue/.github/workflows/python-app.yml
+    uses: alexwolfg/CH3-challengue/.github/workflows/python-app.yml@main
     permissions:  
-      contents: read 
-      checks: write
+      contents: read
+      
   build:
     needs: [integration]
     runs-on: ubuntu-latest
