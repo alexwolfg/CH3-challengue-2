@@ -24,7 +24,7 @@ env:
 
 jobs:
   integration:
-    uses: ./.github/workflows/python-app.yml
+    uses: CH3-challengue/.github/workflows/python-app.yml
     permissions:  
       contents: read 
   build:
